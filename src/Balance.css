@@ -1,0 +1,62 @@
+.balance-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.balance-container h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.balance-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.balance-form label {
+  font-weight: bold;
+}
+
+.balance-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+}
+
+.balance-form button {
+  padding: 10px;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.balance-form button:hover {
+  background-color: #27ae60;
+}
+
+.balance-display {
+  margin-top: 20px;
+  color: #34495e;
+}
+
+.balance-display h2 {
+  font-size: 28px;
+  color: #2980b9;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+}

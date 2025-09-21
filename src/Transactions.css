@@ -1,0 +1,75 @@
+.transactions-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-container h1,
+.transactions-container h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.transaction-form label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.transaction-form input,
+.transaction-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.transaction-form button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.transaction-form button:hover {
+  background-color: #27ae60;
+}
+
+.transaction-history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.transaction-history th {
+  background-color: #ecf0f1;
+}
+
+.transaction-history tr.credit td {
+  color: #27ae60;
+  font-weight: 500;
+}
+
+.transaction-history tr.debit td {
+  color: #e74c3c;
+  font-weight: 500;
+}

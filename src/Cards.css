@@ -1,0 +1,85 @@
+.cards-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1a202c;
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.block-btn,
+.unblock-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.block-btn {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.block-btn:hover {
+  background-color: #c53030;
+}
+
+.unblock-btn {
+  background-color: #38a169;
+  color: white;
+}
+
+.unblock-btn:hover {
+  background-color: #2f855a;
+}
+
+/* Optional: color indicators for different card types */
+.card.debit {
+  border-left: 6px solid #4299e1;
+}
+
+.card.credit {
+  border-left: 6px solid #9f7aea;
+}

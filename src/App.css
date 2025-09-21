@@ -1,0 +1,239 @@
+#container{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background: rgb(175, 162, 162);
+}
+#main{
+    width: 100%;
+    height: calc(100% - 90px);
+    background: white;
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background: rgb(211, 206, 206);
+}
+#footer .copyrighttext{
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    font-size: 12pt;
+    font-weight: bold;
+    float: left;
+    color: rgb(82, 184, 207);
+}
+#main .text1{
+    top: 10px;
+    position: relative;
+    /* margin-right: 200px; */
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(14, 16, 17);
+    text-align: center;
+    /* display: inline-block;
+    padding-left: 50%;
+    padding-top: 60px; */
+}
+#main .home{
+    top: 10px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(14, 16, 17);
+    margin-top: 23px;
+    cursor: pointer;
+    /* background-color: rgb(175, 162, 162); */
+    text-align: left;
+    padding-left: 15%;
+    display: inline-block;
+    padding-top: 10px;
+}
+#main .signintext{
+    top: 10px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(14, 16, 17);
+    margin-top: 23px;
+    cursor: pointer;
+    /* background-color: rgb(175, 162, 162); */
+    text-align: left;
+    padding-left: 15%;
+    display: inline-block; 
+    padding-top: 35px;   
+}
+#main .signupText{
+    top: 10px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(14, 16, 17);
+    margin-top: 23px;
+    cursor: pointer;
+    /* background-color: rgb(175, 162, 162); */
+    text-align: left;
+    padding-left: 15%;
+    display: inline-block;
+    padding-top: 35px;
+}
+#main .signintext:hover , .signupText:hover {
+    text-decoration: underline;
+}
+#main .about{
+    top: 10px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(14, 16, 17);
+    margin-top: 23px;
+    cursor: pointer;
+    /* background-color: rgb(175, 162, 162); */
+    text-align: left;
+    padding-left: 15%;
+    display: inline-block;
+    padding-top: 35px;
+}
+#popup{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,0.25);
+    position: fixed;  
+    z-index: 999;
+    display: none;
+}
+#popupwindow{
+    width: 350px;
+    height: 600px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+#popupheader{
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    background: rgb(175, 162, 162);
+    line-height: 60px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#signin{
+    width: calc(100% - 10px);
+    height: calc(100% - 60px);
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+#signin .usernamelabel{
+    display: block;
+    padding: 20px 0px 3px 0px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(0, 238, 255);
+}
+#signin .passwordlabel{
+    display: block;
+    padding: 20px 0px 3px 0px;
+}
+#signin .forgetPassword{
+    font-size: 12pt;;
+    text-align: right;
+    padding: 10px 0px 3px 0px;
+
+}
+#signin .forgetPassword label{
+    color: skyblue;
+    cursor: pointer;
+}
+#signin .forgetPassword label:hover{
+    color: sandybrown;
+}
+#signin .signinButton{
+    width: 100%;
+    height: 40px;
+    background: rgb(138, 159, 169);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+#signin .signinButton:hover{
+    color: red;
+}
+#signin .div1{
+    width: 100%;
+    height: 60px;
+}
+#signin .div2{
+    width: 100%;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+}
+#signin .div2 label{
+    color: rgb(0, 238, 255);
+    cursor: pointer;
+}
+#signin .div2 label:hover{
+    color: red;
+}
+#signup{
+    width: calc(100% - 10px);
+    height: calc(100% - 60px);
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#signup label{
+    display: block;
+    padding: 10px 0px 3px 0px;
+    border-radius: 10px;
+}
+#signup select{
+    width: 100%;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+#signup button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color:cornflowerblue;
+    color: white;
+    font-size: 16pt;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#signup button:hover{
+    background-color: blue;
+}
+#signup div {
+    width: 100%;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+} 
+#signup div span{
+    font-size: 20pt;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+#signup div span:hover{
+    color: red;
+}
